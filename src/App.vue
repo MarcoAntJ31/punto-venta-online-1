@@ -4,7 +4,13 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  <ThemeToggle />
 </template>
+
+<script lang="ts" setup>
+import ThemeToggle from './components/ThemeToggle.vue'
+
+</script>
 
 <style>
 #app {
