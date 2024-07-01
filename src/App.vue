@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts" setup>
-import ThemeToggle from './components/ThemeToggle.vue'
+import ThemeToggle from './components/organisms/ThemeToggle.vue'
 
 </script>
 
