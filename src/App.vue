@@ -1,13 +1,16 @@
 <template>
-    <div>
-        <PVOLogin />
-    </div>
+    <PVOHomeView />
 </template>
 
 <script lang="ts" setup>
-import PVOLogin from '@/views/PVOLogin.vue'
+import PVOHomeView from "@/views/PVOHomeView.vue";
 </script>
 
 <style>
-
+#app {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
 </style>

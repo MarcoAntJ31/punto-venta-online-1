@@ -159,13 +159,4 @@ h1 {
     font-weight: 400;
     transition: color 0.5s ease;
 }
-
-.flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
 </style>
