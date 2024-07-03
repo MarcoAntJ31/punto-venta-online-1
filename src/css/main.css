@@ -38,6 +38,6 @@ body.dark-mode {
     --background-error-subdued: #4A1F1F;
 
     /* dark login */
-    --image-background: ##212121;
+    --image-background: #212121;
     --form-background: #212F49;
 }
