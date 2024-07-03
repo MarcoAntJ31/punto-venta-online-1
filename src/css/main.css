@@ -1,0 +1,43 @@
+:root {
+    /* light background */
+    --background: #FFFFFF;
+    --background-secondary: #F8F9FB;
+    --background-tertiary: #E8EAF0;
+    --background-disabled: #F1F3F4;
+    --background-primary: #3E79F7;
+    --background-primary-hover: #2F5DBF;
+    --background-primary-disable: #C1D3FC;
+    --background-primary-subdued: #F6F8FF;
+    --background-success: #17B530;
+    --background-success-subdued: #F1F9F4;
+    --background-warning: #FFBE18;
+    --background-warning-subdued: #FDFAF3;
+    --background-error: #F73B3B;
+    --background-error-subdued: #FCF6F8;
+
+    /* light login */
+    --image-background: #f4d03f;
+    --form-background: #80b9e0;
+
+}
+
+body.dark-mode {
+    /* dark background */
+    --background: #1A3353;
+    --background-secondary: #323232;
+    --background-disabled: #89898B;
+    --background-primary: #3E79F7;
+    --background-primary-hover: #2F5DBF;
+    --background-primary-disable: #C1D3FC;
+    --background-primary-subdued: #212F49;
+    --background-success: #17B530;
+    --background-success-subdued: #1D3C22;
+    --background-warning: #FFBE18;
+    --background-warning-subdued: #614E1C;
+    --background-error: #F73B3B;
+    --background-error-subdued: #4A1F1F;
+
+    /* dark login */
+    --image-background: ##212121;
+    --form-background: #212F49;
+}

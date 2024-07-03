@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <div :class="darkModeLogin" class="d-flex justify-center align-center">
+    <div class="d-flex justify-center align-center login-form">
       <v-card
         class="w-75 h-75 d-flex flex-column align-center pa-4"
       >
@@ -39,7 +39,6 @@
                     color="blue" 
                     size="large" 
                     type="submit"
-                    variant="flat"
                 />
             </v-form>
             <div class="d-flex justify-center align-center mt-7">
@@ -49,7 +48,7 @@
       </v-card>
     </div>
     <div
-      :class="darkModeImage" class="d-flex justify-center align-center pa-3">
+      class="login-image d-flex justify-center align-center pa-3">
       <img src="../assets/Group.png" alt="login-image" />
     </div>
   </div>
@@ -59,22 +58,10 @@
 import PVOInput from "@/components/organisms/PVOInput.vue";
 import PVOThemeToggle from "@/components/atoms/PVOThemeToggle.vue";
 import PVOButton from "@/components/atoms/PVOButton.vue";
-import { ref, computed } from "vue";
-import { useTheme } from "vuetify";
+import { ref } from "vue";
 
 const username = ref("");
 const password = ref("");
-const theme = useTheme();
-
-const darkMode = computed(() => theme.global.name.value === "dark");
-
-const darkModeImage = computed(() => 
-  ['login-image', { 'dark-mode': darkMode.value }
-]);
-
-const darkModeLogin = computed(() => 
-  ['login-form', { 'dark-mode': darkMode.value }
-]);
 
 </script>
 
@@ -90,19 +77,12 @@ const darkModeLogin = computed(() =>
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f4d03f;
+  background-color: var(--image-background);
 }
 
-.login-image.dark-mode {
-  background-color: #212121;
-}
 
 .login-form {
-  background-color: #85c1e9;
-}
-
-.login-form.dark-mode {
-  background-color: gray;
+  background-color: var(--form-background);
 }
 
 .login-image img {
