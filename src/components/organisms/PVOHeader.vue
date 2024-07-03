@@ -1,12 +1,12 @@
 <template>
-    <v-toolbar image="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+    <v-toolbar>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
   
       <v-toolbar-title>{{ title }}</v-toolbar-title>
   
       <v-spacer></v-spacer>
   
-      <TestButton
+      <PVOButton
         v-for="(btn, index) in buttons"
         :key="index"
         :icon="btn.icon"
@@ -17,7 +17,7 @@
   
   <script setup>
   import { defineProps } from 'vue';
-  import TestButton from '../atoms/TestButton.vue';
+  import PVOButton from '../atoms/PVOButton.vue';
   
   const props = defineProps({
     color: {

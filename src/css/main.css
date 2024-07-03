@@ -15,6 +15,54 @@
     --background-error: #F73B3B;
     --background-error-subdued: #FCF6F8;
 
+    /* Light Text */
+    --text: #1A3353; 
+    --text-secondary: #F8F9FB;
+    --text-tertiary: #A8A8AA;
+    --text-disabled: #3D424A;
+    --text-primary: #3E79F7;
+    --text-primary-secondary: #274D9F;
+    --text-primary-disable: #C1D3FC;
+    --text-on-primary: #FFFFFF;
+    --text-success: #17B530;
+    --text-success-secondary: #0F741F;
+    --text-warning: #FFBE18;
+    --text-warning-secondary: #805F0C;
+    --text-error: #F73B3B;
+    --text-error-secondary: #9F2626;
+
+    /* Light Icons */
+    --icon: #1A3353;
+    --icon-secondary: #F8F9FB;
+    --icon-tertiary: #A8A8AA;
+    --icon-primary: #3E79F7;
+    --icon-on-primary: #FFFFFF;
+    --icon-success: #17B530;
+    --icon-warning: #FFBE18;
+    --icon-error: #F73B3B;
+
+    /* Light Border */
+    --border: #E8EAF0;
+    --border-secondary: #F8F9FB;
+    --border-primary: #3E79F7;
+    --border-primary-secondary: #C1D3FC;
+    --border-success: #17B530;
+    --border-warning: #FFBE18;
+    --border-error: #F73B3B;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* light login */
     --image-background: #f4d03f;
     --form-background: #80b9e0;
@@ -36,6 +84,48 @@ body.dark-mode {
     --background-warning-subdued: #614E1C;
     --background-error: #F73B3B;
     --background-error-subdued: #4A1F1F;
+
+    /* dark text */
+    --text: #FFFFFF;
+    --text-secondary: #A8A8AA;
+    --text-disabled: #3D424A;
+    --text-primary: #3E79F7;
+    --text-primary-secondary: #274D9F;
+    --text-success: #17B530;
+    --text-success-secondary: #0F741F;
+    --text-warning: #FFBE18;
+    --text-warning-secondary: #805F0C;
+    --text-error: #F73B3B;
+    --text-error-secondary: #9F2626;
+
+    /* dark icons */
+    --icon: #FFFFFF;
+    --icon-secondary: #A8A8AA;
+    --icon-disabled: #3D424A;
+    --icon-primary: #3E79F7;
+    --icon-success: #17B530;
+    --icon-warning: #FFBE18;
+    --icon-error: #F73B3B;
+
+    /* dark border */
+    --border: #89898B;
+    --border-secondary: #4A4A4B;
+    --border-primary: #3E79F7;
+    --border-success: #17B530;
+    --border-warning: #FFBE18;
+    --border-error: #F73B3B;
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* dark login */
     --image-background: #212121;
